@@ -12,7 +12,17 @@ public class LineComparison {
         System.out.println("Welcome to Line Comparison Computation Program");
 
 
-       double LengthOfLine = sqrt( (x2 - x1) ^ 2 + (y2- y1) ^ 2);
-        System.out.println("Length of line is "+LengthOfLine );
+       double LengthOfLine1 = sqrt( (x2 - x1) ^ 2 + (y2- y1) ^ 2);
+        double LengthOfLine2 = sqrt( (x2 - x1) ^ 2 + (y2- y1) ^ 2);
+        System.out.println("Length of line is "+LengthOfLine1 );
+        System.out.println("Length of line is "+LengthOfLine1 );
+
+        if (String.valueOf(LengthOfLine1).equals(String.valueOf(LengthOfLine2)) ){
+            System.out.println("True");
+
+        }else {
+            System.out.println("False");
+        }
     }
+
 }

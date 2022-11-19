@@ -18,10 +18,13 @@ public class LineComparison {
         System.out.println("Length of line is "+LengthOfLine1 );
 
         if (String.valueOf(LengthOfLine1).equals(String.valueOf(LengthOfLine2)) ){
-            System.out.println("True");
+            System.out.println("Two lines are equal");
 
-        }else {
-            System.out.println("False");
+        } else if (LengthOfLine1>LengthOfLine2) {
+            System.out.println("LengthOfLine1 is greater than LengthOfLine2 " + LengthOfLine1);
+
+        } else {
+            System.out.println("LengthOfLine2 is greater than LengthOfLine1 "+ LengthOfLine2);
         }
     }
 

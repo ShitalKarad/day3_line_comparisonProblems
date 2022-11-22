@@ -2,7 +2,12 @@ package com.brigelabz;
 
 import static java.lang.Math.sqrt;
 
+
 public static void main(String[] args) {
+
+public class LineComparison {
+    public static void main(String[] args) {
+
         System.out.println("Welcome to line comparison computation program");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter values for line 2 ");
@@ -24,12 +29,17 @@ public static void main(String[] args) {
         if ( dLen1.equals( dLen2)){
             System.out.println("Two lines are equal ");
 
+
         } else if (dLen1.compareTo(dLen2) >0) {
 
             System.out.println("line 1 is greater than line 2");
 
         } else {
             System.out.println( "line 2 is greater than line 1");
+
+        }else {
+            System.out.println( "Two lines are not equal");
+
         }
     }
 }
